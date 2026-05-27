@@ -31,10 +31,10 @@ Previously a fullstack engineer at Aegis Medical Group, where I built REST APIs 
 ## Projects
 
 ### [Fontify](https://github.com/AbhilashaTandon/Fontify) &nbsp;![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white) &nbsp;![GLSL](https://img.shields.io/badge/GLSL-5586A4?style=flat&logo=opengl&logoColor=white)
-A GPU-accelerated font renderer implemented in C++ and GLSL, based on Lengyel's 2017 paper on GPU-accelerated glyph rendering. Parses TTF font files from scratch, extracts bezier curve glyph data, packs it into textures, and renders characters directly on the GPU using the winding number method in a fragment shader.
+A GPU-accelerated font renderer implemented in C++ and GLSL, based on [Lengyel's 2017 paper on GPU-accelerated glyph rendering](https://jcgt.org/published/0006/02/02/). Parses TTF font files from scratch, extracts bezier curve glyph data, packs it into textures, and renders characters directly on the GPU using  Lengyel et al.'s "winding number" method in a fragment shader.
 
 ### [CASsiopeia](https://github.com/AbhilashaTandon/CASsiopeia) &nbsp;![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
-A computer algebra system built from scratch in Rust. Implements a full expression parser, AST evaluator, and arbitrary precision arithmetic across 6,000+ lines of code, using recursive descent parsing with operator precedence climbing.
+A computer algebra system built from scratch in Rust. Implements a full expression parser, AST evaluator, and arbitrary precision arithmetic, using recursive descent parsing with operator precedence climbing. Plans to add expression simplification, and the ability to compute derivatives and both definite and indefinite integrals.
 
 ### [Gaomon PD1560 Linux Device Driver](https://github.com/AbhilashaTandon/Gaomon-PD1560-Device-Driver) &nbsp;![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
 A Linux kernel driver for a USB graphics tablet, developed as a graduate operating systems capstone. Covers kernel module development and low-level hardware interfacing for device communication and input event processing.
